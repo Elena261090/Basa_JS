@@ -21,8 +21,9 @@ function init(){
 }
 
 function FillInTheChessBoard() {
-var board = document.createElement("table");   
-board.className += 'tableStyle'; 
+var board = document.createElement("table"); 
+board.className += 'tableStyle';
+ 
 
 for(var i = 0; i < boardLines; i++){
 var str = document.createElement("tr");
